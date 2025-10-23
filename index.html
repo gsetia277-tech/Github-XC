@@ -4,12 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        .Kotak {
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+         .Kotak1{ 
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            background-color: blue;
+         }
+         .Kotak2{ 
+            width: 150px;
+            height: 150px ;
+            border: 2px solid black;
+            background-color: green;
+         }
+        .container {
+            display: flex;
+            width: 480px;
+            height: 500vh;
+            flex-wrap: wrap;
+            background-color: aquamarine;
+            gap: 5px;
+        }
+    </style>
 </head>
 <body>
     <center>
-        <marquee>
-        <h1>Welcome Guys</h1>
-        </marquee>
-    </center>
+   <h1>Tic Tac Toe</h1>
+   <div class="container">
+   <div class="Kotak">Kotak 1</div>
+   <div class="Kotak">Kotak 2</div>
+   <div class="Kotak">Kotak 3</div>
+
+   <div class="Kotak1">Kotak 4</div>
+   <div class="Kotak1">Kotak 5</div>
+   <div class="Kotak1">Kotak 6</div>
+
+   <div class="Kotak2">Kotak 7</div>
+   <div class="Kotak2">Kotak 8</div>
+   <div class="Kotak2">Kotak 7</div>
+   </div>
+   </center>
 </body>
 </html>
