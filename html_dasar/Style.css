@@ -1,0 +1,43 @@
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.Kotak {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        
+}
+.Kotak1{ 
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: blue;
+}
+.Kotak2{ 
+    width: 150px;
+    height: 150px ;
+    border: 2px solid black;
+    background-color: green;
+}
+.container {
+    display: flex;
+    width: 480px;
+    height: 500vh;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    gap: 5px;
+}
+    
+.item {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: yellow;
+}
